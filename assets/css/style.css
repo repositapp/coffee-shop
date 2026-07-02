@@ -124,6 +124,34 @@
   --tw-gradient-to: var(--coffee-700);
 }
 
+.hover\:bg-coffee-700:hover {
+  background: var(--coffee-700) !important;
+}
+
+.hover\:text-coffee-700:hover {
+  color: var(--coffee-700) !important;
+}
+
+.focus\:border-coffee-700:focus {
+  border-color: var(--coffee-700) !important;
+}
+
+.focus\:ring-coffee-700:focus {
+  --tw-ring-color: var(--coffee-700) !important;
+}
+
+.peer:checked + .peer-checked\:bg-coffee-700 {
+  background: var(--coffee-700) !important;
+}
+
+.peer:checked + .peer-checked\:border-coffee-700 {
+  border-color: var(--coffee-700) !important;
+}
+
+.peer:checked + .peer-checked\:text-white {
+  color: #fff !important;
+}
+
 .from-coffee-800 {
   --tw-gradient-from: var(--coffee-800);
   --tw-gradient-to: rgb(78 55 39 / 0);
