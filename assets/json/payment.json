@@ -1,0 +1,152 @@
+[
+  {
+    "group": "QRIS",
+    "methods": [
+      {
+        "id": "qris",
+        "name": "QRIS",
+        "logo": "fa-qrcode"
+      }
+    ]
+  },
+  {
+    "group": "Transfer Bank",
+    "methods": [
+      {
+        "id": "bca",
+        "name": "BCA",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "mandiri",
+        "name": "Mandiri",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "bni",
+        "name": "BNI",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "bri",
+        "name": "BRI",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "cimb-niaga",
+        "name": "CIMB Niaga",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "permata",
+        "name": "Permata",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "btn",
+        "name": "BTN",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "bsi",
+        "name": "BSI",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "bank-mega",
+        "name": "Bank Mega",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "danamon",
+        "name": "Danamon",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "panin",
+        "name": "Panin",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "ocbc",
+        "name": "OCBC",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "maybank",
+        "name": "Maybank",
+        "logo": "fa-building-columns"
+      }
+    ]
+  },
+  {
+    "group": "E-Wallet",
+    "methods": [
+      {
+        "id": "gopay",
+        "name": "GoPay",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "ovo",
+        "name": "OVO",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "dana",
+        "name": "DANA",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "shopeepay",
+        "name": "ShopeePay",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "linkaja",
+        "name": "LinkAja",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "astrapay",
+        "name": "AstraPay",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "isaku",
+        "name": "iSaku",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "sakuku",
+        "name": "Sakuku",
+        "logo": "fa-wallet"
+      }
+    ]
+  },
+  {
+    "group": "COD",
+    "methods": [
+      {
+        "id": "cod",
+        "name": "Bayar di Tempat",
+        "logo": "fa-truck-fast"
+      }
+    ]
+  },
+  {
+    "group": "Retail",
+    "methods": [
+      {
+        "id": "indomaret",
+        "name": "Indomaret",
+        "logo": "fa-store"
+      },
+      {
+        "id": "alfamart",
+        "name": "Alfamart",
+        "logo": "fa-store"
+      }
+    ]
+  }
+]

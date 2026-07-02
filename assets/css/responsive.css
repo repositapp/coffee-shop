@@ -1,0 +1,31 @@
+@media (min-width: 1536px) {
+ .container-page {
+ width: min(100% - 3rem, 1480px);
+ }
+
+ .tv-grid {
+ grid-template-columns: repeat(5, minmax(0, 1fr));
+ }
+}
+
+@media (max-width: 768px) {
+ .mobile-sticky-cta {
+ position: sticky;
+ bottom: .75rem;
+ z-index: 30;
+ }
+
+ .mobile-safe-bottom {
+ padding-bottom: 6rem;
+ }
+}
+
+@media (max-width: 420px) {
+ .container-page {
+ width: min(100% - 1rem, 1280px);
+ }
+
+ .xs-full {
+ width: 100%;
+ }
+}

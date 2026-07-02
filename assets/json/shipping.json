@@ -1,0 +1,23 @@
+[
+  {
+    "id": "instant",
+    "name": "Instant Delivery",
+    "description": "Estimasi 30-60 menit",
+    "price": 18000,
+    "eta": "30-60 menit"
+  },
+  {
+    "id": "regular",
+    "name": "Regular Delivery",
+    "description": "Estimasi 1-2 jam",
+    "price": 12000,
+    "eta": "1-2 jam"
+  },
+  {
+    "id": "pickup",
+    "name": "Ambil di Toko",
+    "description": "Tanpa ongkir",
+    "price": 0,
+    "eta": "15-30 menit"
+  }
+]

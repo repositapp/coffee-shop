@@ -1,0 +1,2163 @@
+/* Global configuration and dummy data mirror. JSON files are also available in assets/json for future backend integration. */
+window.APP_CONFIG = {
+ name: 'Coffee Shop Store',
+ currency: 'IDR',
+ storagePrefix: 'coffee_shop_store_',
+ taxRate: 0.11,
+ freeShippingMin: 150000,
+ whatsappNumber: '6281234567890',
+ supportPhone: '+62 812-3456-7890',
+ mapsUrl: 'https://maps.google.com',
+ defaultAvatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80'
+};
+window.STORE_DATA = {
+ "products": [
+ {
+ "id": "co-001",
+ "slug": "espresso",
+ "name": "Espresso",
+ "category": "coffee",
+ "categoryName": "Coffee",
+ "price": 22000,
+ "oldPrice": null,
+ "discount": 0,
+ "rating": 4.4,
+ "reviews": 28,
+ "sold": 80,
+ "stock": 20,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": false,
+ "badge": "Best Seller",
+ "description": "Espresso premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Biji kopi arabika",
+ "Susu segar",
+ "Gula aren opsional"
+ ],
+ "nutrition": {
+ "calories": 90,
+ "protein": 2,
+ "carbohydrate": 12,
+ "fat": 3
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "co-002",
+ "slug": "americano",
+ "name": "Americano",
+ "category": "coffee",
+ "categoryName": "Coffee",
+ "price": 26000,
+ "oldPrice": 27368,
+ "discount": 5,
+ "rating": 4.5,
+ "reviews": 35,
+ "sold": 93,
+ "stock": 23,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": true,
+ "badge": "Best Seller",
+ "description": "Americano premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Biji kopi arabika",
+ "Susu segar",
+ "Gula aren opsional"
+ ],
+ "nutrition": {
+ "calories": 102,
+ "protein": 3,
+ "carbohydrate": 14,
+ "fat": 4
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "co-003",
+ "slug": "cappuccino",
+ "name": "Cappuccino",
+ "category": "coffee",
+ "categoryName": "Coffee",
+ "price": 30000,
+ "oldPrice": 33333,
+ "discount": 10,
+ "rating": 4.6,
+ "reviews": 42,
+ "sold": 106,
+ "stock": 26,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": false,
+ "badge": "Best Seller",
+ "description": "Cappuccino premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Biji kopi arabika",
+ "Susu segar",
+ "Gula aren opsional"
+ ],
+ "nutrition": {
+ "calories": 114,
+ "protein": 4,
+ "carbohydrate": 16,
+ "fat": 5
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "co-004",
+ "slug": "latte",
+ "name": "Latte",
+ "category": "coffee",
+ "categoryName": "Coffee",
+ "price": 34000,
+ "oldPrice": 40000,
+ "discount": 15,
+ "rating": 4.6,
+ "reviews": 49,
+ "sold": 119,
+ "stock": 29,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": false,
+ "badge": "New",
+ "description": "Latte premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Biji kopi arabika",
+ "Susu segar",
+ "Gula aren opsional"
+ ],
+ "nutrition": {
+ "calories": 126,
+ "protein": 5,
+ "carbohydrate": 18,
+ "fat": 6
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "co-005",
+ "slug": "mocha",
+ "name": "Mocha",
+ "category": "coffee",
+ "categoryName": "Coffee",
+ "price": 38000,
+ "oldPrice": 47500,
+ "discount": 20,
+ "rating": 4.7,
+ "reviews": 56,
+ "sold": 132,
+ "stock": 32,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": true,
+ "badge": "New",
+ "description": "Mocha premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Biji kopi arabika",
+ "Susu segar",
+ "Gula aren opsional"
+ ],
+ "nutrition": {
+ "calories": 138,
+ "protein": 2,
+ "carbohydrate": 20,
+ "fat": 7
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "co-006",
+ "slug": "caramel-macchiato",
+ "name": "Caramel Macchiato",
+ "category": "coffee",
+ "categoryName": "Coffee",
+ "price": 24500,
+ "oldPrice": null,
+ "discount": 0,
+ "rating": 4.8,
+ "reviews": 63,
+ "sold": 145,
+ "stock": 35,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": false,
+ "badge": "Best Seller",
+ "description": "Caramel Macchiato premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Biji kopi arabika",
+ "Susu segar",
+ "Gula aren opsional"
+ ],
+ "nutrition": {
+ "calories": 150,
+ "protein": 3,
+ "carbohydrate": 22,
+ "fat": 3
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "co-007",
+ "slug": "flat-white",
+ "name": "Flat White",
+ "category": "coffee",
+ "categoryName": "Coffee",
+ "price": 28500,
+ "oldPrice": 30000,
+ "discount": 5,
+ "rating": 4.4,
+ "reviews": 70,
+ "sold": 158,
+ "stock": 38,
+ "isBestSeller": false,
+ "isNew": false,
+ "isFlashSale": true,
+ "badge": "Popular",
+ "description": "Flat White premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Biji kopi arabika",
+ "Susu segar",
+ "Gula aren opsional"
+ ],
+ "nutrition": {
+ "calories": 162,
+ "protein": 4,
+ "carbohydrate": 24,
+ "fat": 4
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "co-008",
+ "slug": "affogato",
+ "name": "Affogato",
+ "category": "coffee",
+ "categoryName": "Coffee",
+ "price": 32500,
+ "oldPrice": 36111,
+ "discount": 10,
+ "rating": 4.5,
+ "reviews": 77,
+ "sold": 171,
+ "stock": 41,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": false,
+ "badge": "New",
+ "description": "Affogato premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Biji kopi arabika",
+ "Susu segar",
+ "Gula aren opsional"
+ ],
+ "nutrition": {
+ "calories": 174,
+ "protein": 5,
+ "carbohydrate": 26,
+ "fat": 5
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "co-009",
+ "slug": "cold-brew",
+ "name": "Cold Brew",
+ "category": "coffee",
+ "categoryName": "Coffee",
+ "price": 36500,
+ "oldPrice": 42941,
+ "discount": 15,
+ "rating": 4.6,
+ "reviews": 84,
+ "sold": 184,
+ "stock": 44,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": true,
+ "badge": "Best Seller",
+ "description": "Cold Brew premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Biji kopi arabika",
+ "Susu segar",
+ "Gula aren opsional"
+ ],
+ "nutrition": {
+ "calories": 186,
+ "protein": 2,
+ "carbohydrate": 28,
+ "fat": 6
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "co-010",
+ "slug": "manual-brew",
+ "name": "Manual Brew",
+ "category": "coffee",
+ "categoryName": "Coffee",
+ "price": 40500,
+ "oldPrice": 50625,
+ "discount": 20,
+ "rating": 4.6,
+ "reviews": 91,
+ "sold": 197,
+ "stock": 47,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": false,
+ "badge": "New",
+ "description": "Manual Brew premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Biji kopi arabika",
+ "Susu segar",
+ "Gula aren opsional"
+ ],
+ "nutrition": {
+ "calories": 198,
+ "protein": 3,
+ "carbohydrate": 30,
+ "fat": 7
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "no-001",
+ "slug": "matcha-latte",
+ "name": "Matcha Latte",
+ "category": "non-coffee",
+ "categoryName": "Non Coffee",
+ "price": 20000,
+ "oldPrice": null,
+ "discount": 0,
+ "rating": 4.4,
+ "reviews": 28,
+ "sold": 80,
+ "stock": 20,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": false,
+ "badge": "Best Seller",
+ "description": "Matcha Latte premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Daun teh pilihan",
+ "Susu segar",
+ "Gula cair opsional"
+ ],
+ "nutrition": {
+ "calories": 90,
+ "protein": 2,
+ "carbohydrate": 12,
+ "fat": 3
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1523906630133-f6934a1ab2b9?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "non-coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "no-002",
+ "slug": "chocolate",
+ "name": "Chocolate",
+ "category": "non-coffee",
+ "categoryName": "Non Coffee",
+ "price": 24000,
+ "oldPrice": 25263,
+ "discount": 5,
+ "rating": 4.5,
+ "reviews": 35,
+ "sold": 93,
+ "stock": 23,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": true,
+ "badge": "Best Seller",
+ "description": "Chocolate premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Daun teh pilihan",
+ "Susu segar",
+ "Gula cair opsional"
+ ],
+ "nutrition": {
+ "calories": 102,
+ "protein": 3,
+ "carbohydrate": 14,
+ "fat": 4
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1523906630133-f6934a1ab2b9?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "non-coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "no-003",
+ "slug": "red-velvet",
+ "name": "Red Velvet",
+ "category": "non-coffee",
+ "categoryName": "Non Coffee",
+ "price": 28000,
+ "oldPrice": 31111,
+ "discount": 10,
+ "rating": 4.6,
+ "reviews": 42,
+ "sold": 106,
+ "stock": 26,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": false,
+ "badge": "Best Seller",
+ "description": "Red Velvet premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Daun teh pilihan",
+ "Susu segar",
+ "Gula cair opsional"
+ ],
+ "nutrition": {
+ "calories": 114,
+ "protein": 4,
+ "carbohydrate": 16,
+ "fat": 5
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "non-coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "no-004",
+ "slug": "thai-tea",
+ "name": "Thai Tea",
+ "category": "non-coffee",
+ "categoryName": "Non Coffee",
+ "price": 32000,
+ "oldPrice": 37647,
+ "discount": 15,
+ "rating": 4.6,
+ "reviews": 49,
+ "sold": 119,
+ "stock": 29,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": false,
+ "badge": "New",
+ "description": "Thai Tea premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Daun teh pilihan",
+ "Susu segar",
+ "Gula cair opsional"
+ ],
+ "nutrition": {
+ "calories": 126,
+ "protein": 5,
+ "carbohydrate": 18,
+ "fat": 6
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "non-coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "no-005",
+ "slug": "lemon-tea",
+ "name": "Lemon Tea",
+ "category": "non-coffee",
+ "categoryName": "Non Coffee",
+ "price": 36000,
+ "oldPrice": 45000,
+ "discount": 20,
+ "rating": 4.7,
+ "reviews": 56,
+ "sold": 132,
+ "stock": 32,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": true,
+ "badge": "New",
+ "description": "Lemon Tea premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Daun teh pilihan",
+ "Susu segar",
+ "Gula cair opsional"
+ ],
+ "nutrition": {
+ "calories": 138,
+ "protein": 2,
+ "carbohydrate": 20,
+ "fat": 7
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1523906630133-f6934a1ab2b9?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "non-coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "no-006",
+ "slug": "milk-tea",
+ "name": "Milk Tea",
+ "category": "non-coffee",
+ "categoryName": "Non Coffee",
+ "price": 22500,
+ "oldPrice": null,
+ "discount": 0,
+ "rating": 4.8,
+ "reviews": 63,
+ "sold": 145,
+ "stock": 35,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": false,
+ "badge": "Best Seller",
+ "description": "Milk Tea premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Daun teh pilihan",
+ "Susu segar",
+ "Gula cair opsional"
+ ],
+ "nutrition": {
+ "calories": 150,
+ "protein": 3,
+ "carbohydrate": 22,
+ "fat": 3
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1523906630133-f6934a1ab2b9?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "non-coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "no-007",
+ "slug": "taro",
+ "name": "Taro",
+ "category": "non-coffee",
+ "categoryName": "Non Coffee",
+ "price": 26500,
+ "oldPrice": 27895,
+ "discount": 5,
+ "rating": 4.4,
+ "reviews": 70,
+ "sold": 158,
+ "stock": 38,
+ "isBestSeller": false,
+ "isNew": false,
+ "isFlashSale": true,
+ "badge": "Popular",
+ "description": "Taro premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Daun teh pilihan",
+ "Susu segar",
+ "Gula cair opsional"
+ ],
+ "nutrition": {
+ "calories": 162,
+ "protein": 4,
+ "carbohydrate": 24,
+ "fat": 4
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1523906630133-f6934a1ab2b9?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "non-coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "no-008",
+ "slug": "green-tea",
+ "name": "Green Tea",
+ "category": "non-coffee",
+ "categoryName": "Non Coffee",
+ "price": 30500,
+ "oldPrice": 33889,
+ "discount": 10,
+ "rating": 4.5,
+ "reviews": 77,
+ "sold": 171,
+ "stock": 41,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": false,
+ "badge": "New",
+ "description": "Green Tea premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Daun teh pilihan",
+ "Susu segar",
+ "Gula cair opsional"
+ ],
+ "nutrition": {
+ "calories": 174,
+ "protein": 5,
+ "carbohydrate": 26,
+ "fat": 5
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "non-coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "no-009",
+ "slug": "fresh-juice",
+ "name": "Fresh Juice",
+ "category": "non-coffee",
+ "categoryName": "Non Coffee",
+ "price": 34500,
+ "oldPrice": 40588,
+ "discount": 15,
+ "rating": 4.6,
+ "reviews": 84,
+ "sold": 184,
+ "stock": 44,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": true,
+ "badge": "Best Seller",
+ "description": "Fresh Juice premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Daun teh pilihan",
+ "Susu segar",
+ "Gula cair opsional"
+ ],
+ "nutrition": {
+ "calories": 186,
+ "protein": 2,
+ "carbohydrate": 28,
+ "fat": 6
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "non-coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "no-010",
+ "slug": "smoothies",
+ "name": "Smoothies",
+ "category": "non-coffee",
+ "categoryName": "Non Coffee",
+ "price": 38500,
+ "oldPrice": 48125,
+ "discount": 20,
+ "rating": 4.6,
+ "reviews": 91,
+ "sold": 197,
+ "stock": 47,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": false,
+ "badge": "New",
+ "description": "Smoothies premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Daun teh pilihan",
+ "Susu segar",
+ "Gula cair opsional"
+ ],
+ "nutrition": {
+ "calories": 198,
+ "protein": 3,
+ "carbohydrate": 30,
+ "fat": 7
+ },
+ "sizes": [
+ "Regular",
+ "Large"
+ ],
+ "toppings": [
+ "No Topping",
+ "Extra Shot",
+ "Whipped Cream",
+ "Caramel Sauce",
+ "Cheese Cream"
+ ],
+ "sugarLevels": [
+ "0%",
+ "25%",
+ "50%",
+ "75%",
+ "100%"
+ ],
+ "iceLevels": [
+ "No Ice",
+ "Less Ice",
+ "Normal Ice",
+ "Extra Ice"
+ ],
+ "images": [
+ "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1523906630133-f6934a1ab2b9?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "non-coffee",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "fo-001",
+ "slug": "croissant",
+ "name": "Croissant",
+ "category": "food",
+ "categoryName": "Food",
+ "price": 25000,
+ "oldPrice": null,
+ "discount": 0,
+ "rating": 4.4,
+ "reviews": 28,
+ "sold": 80,
+ "stock": 20,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": false,
+ "badge": "Best Seller",
+ "description": "Croissant premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Bahan segar",
+ "Bumbu pilihan",
+ "Saus racikan rumah"
+ ],
+ "nutrition": {
+ "calories": 240,
+ "protein": 2,
+ "carbohydrate": 12,
+ "fat": 3
+ },
+ "sizes": [
+ "Single",
+ "Sharing"
+ ],
+ "toppings": [
+ "Original",
+ "Extra Cheese",
+ "Spicy Sauce",
+ "Mayo",
+ "BBQ Sauce"
+ ],
+ "sugarLevels": [],
+ "iceLevels": [],
+ "images": [
+ "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "food",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "fo-002",
+ "slug": "sandwich",
+ "name": "Sandwich",
+ "category": "food",
+ "categoryName": "Food",
+ "price": 29000,
+ "oldPrice": 30526,
+ "discount": 5,
+ "rating": 4.5,
+ "reviews": 35,
+ "sold": 93,
+ "stock": 23,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": true,
+ "badge": "Best Seller",
+ "description": "Sandwich premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Bahan segar",
+ "Bumbu pilihan",
+ "Saus racikan rumah"
+ ],
+ "nutrition": {
+ "calories": 265,
+ "protein": 3,
+ "carbohydrate": 14,
+ "fat": 4
+ },
+ "sizes": [
+ "Single",
+ "Sharing"
+ ],
+ "toppings": [
+ "Original",
+ "Extra Cheese",
+ "Spicy Sauce",
+ "Mayo",
+ "BBQ Sauce"
+ ],
+ "sugarLevels": [],
+ "iceLevels": [],
+ "images": [
+ "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "food",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "fo-003",
+ "slug": "burger",
+ "name": "Burger",
+ "category": "food",
+ "categoryName": "Food",
+ "price": 33000,
+ "oldPrice": 36667,
+ "discount": 10,
+ "rating": 4.6,
+ "reviews": 42,
+ "sold": 106,
+ "stock": 26,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": false,
+ "badge": "Best Seller",
+ "description": "Burger premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Bahan segar",
+ "Bumbu pilihan",
+ "Saus racikan rumah"
+ ],
+ "nutrition": {
+ "calories": 290,
+ "protein": 4,
+ "carbohydrate": 16,
+ "fat": 5
+ },
+ "sizes": [
+ "Single",
+ "Sharing"
+ ],
+ "toppings": [
+ "Original",
+ "Extra Cheese",
+ "Spicy Sauce",
+ "Mayo",
+ "BBQ Sauce"
+ ],
+ "sugarLevels": [],
+ "iceLevels": [],
+ "images": [
+ "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "food",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "fo-004",
+ "slug": "french-fries",
+ "name": "French Fries",
+ "category": "food",
+ "categoryName": "Food",
+ "price": 37000,
+ "oldPrice": 43529,
+ "discount": 15,
+ "rating": 4.6,
+ "reviews": 49,
+ "sold": 119,
+ "stock": 29,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": false,
+ "badge": "New",
+ "description": "French Fries premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Bahan segar",
+ "Bumbu pilihan",
+ "Saus racikan rumah"
+ ],
+ "nutrition": {
+ "calories": 315,
+ "protein": 5,
+ "carbohydrate": 18,
+ "fat": 6
+ },
+ "sizes": [
+ "Single",
+ "Sharing"
+ ],
+ "toppings": [
+ "Original",
+ "Extra Cheese",
+ "Spicy Sauce",
+ "Mayo",
+ "BBQ Sauce"
+ ],
+ "sugarLevels": [],
+ "iceLevels": [],
+ "images": [
+ "https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "food",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "fo-005",
+ "slug": "rice-bowl",
+ "name": "Rice Bowl",
+ "category": "food",
+ "categoryName": "Food",
+ "price": 41000,
+ "oldPrice": 51250,
+ "discount": 20,
+ "rating": 4.7,
+ "reviews": 56,
+ "sold": 132,
+ "stock": 32,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": true,
+ "badge": "New",
+ "description": "Rice Bowl premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Bahan segar",
+ "Bumbu pilihan",
+ "Saus racikan rumah"
+ ],
+ "nutrition": {
+ "calories": 340,
+ "protein": 2,
+ "carbohydrate": 20,
+ "fat": 7
+ },
+ "sizes": [
+ "Single",
+ "Sharing"
+ ],
+ "toppings": [
+ "Original",
+ "Extra Cheese",
+ "Spicy Sauce",
+ "Mayo",
+ "BBQ Sauce"
+ ],
+ "sugarLevels": [],
+ "iceLevels": [],
+ "images": [
+ "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "food",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "fo-006",
+ "slug": "chicken-wings",
+ "name": "Chicken Wings",
+ "category": "food",
+ "categoryName": "Food",
+ "price": 27500,
+ "oldPrice": null,
+ "discount": 0,
+ "rating": 4.8,
+ "reviews": 63,
+ "sold": 145,
+ "stock": 35,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": false,
+ "badge": "Best Seller",
+ "description": "Chicken Wings premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Bahan segar",
+ "Bumbu pilihan",
+ "Saus racikan rumah"
+ ],
+ "nutrition": {
+ "calories": 365,
+ "protein": 3,
+ "carbohydrate": 22,
+ "fat": 3
+ },
+ "sizes": [
+ "Single",
+ "Sharing"
+ ],
+ "toppings": [
+ "Original",
+ "Extra Cheese",
+ "Spicy Sauce",
+ "Mayo",
+ "BBQ Sauce"
+ ],
+ "sugarLevels": [],
+ "iceLevels": [],
+ "images": [
+ "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "food",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "fo-007",
+ "slug": "pasta",
+ "name": "Pasta",
+ "category": "food",
+ "categoryName": "Food",
+ "price": 31500,
+ "oldPrice": 33158,
+ "discount": 5,
+ "rating": 4.4,
+ "reviews": 70,
+ "sold": 158,
+ "stock": 38,
+ "isBestSeller": false,
+ "isNew": false,
+ "isFlashSale": true,
+ "badge": "Popular",
+ "description": "Pasta premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Bahan segar",
+ "Bumbu pilihan",
+ "Saus racikan rumah"
+ ],
+ "nutrition": {
+ "calories": 390,
+ "protein": 4,
+ "carbohydrate": 24,
+ "fat": 4
+ },
+ "sizes": [
+ "Single",
+ "Sharing"
+ ],
+ "toppings": [
+ "Original",
+ "Extra Cheese",
+ "Spicy Sauce",
+ "Mayo",
+ "BBQ Sauce"
+ ],
+ "sugarLevels": [],
+ "iceLevels": [],
+ "images": [
+ "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1524351199678-941a58a3df50?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "food",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "fo-008",
+ "slug": "donut",
+ "name": "Donut",
+ "category": "food",
+ "categoryName": "Food",
+ "price": 35500,
+ "oldPrice": 39444,
+ "discount": 10,
+ "rating": 4.5,
+ "reviews": 77,
+ "sold": 171,
+ "stock": 41,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": false,
+ "badge": "New",
+ "description": "Donut premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Bahan segar",
+ "Bumbu pilihan",
+ "Saus racikan rumah"
+ ],
+ "nutrition": {
+ "calories": 415,
+ "protein": 5,
+ "carbohydrate": 26,
+ "fat": 5
+ },
+ "sizes": [
+ "Single",
+ "Sharing"
+ ],
+ "toppings": [
+ "Original",
+ "Extra Cheese",
+ "Spicy Sauce",
+ "Mayo",
+ "BBQ Sauce"
+ ],
+ "sugarLevels": [],
+ "iceLevels": [],
+ "images": [
+ "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1524351199678-941a58a3df50?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "food",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "fo-009",
+ "slug": "cheesecake",
+ "name": "Cheesecake",
+ "category": "food",
+ "categoryName": "Food",
+ "price": 39500,
+ "oldPrice": 46471,
+ "discount": 15,
+ "rating": 4.6,
+ "reviews": 84,
+ "sold": 184,
+ "stock": 44,
+ "isBestSeller": true,
+ "isNew": false,
+ "isFlashSale": true,
+ "badge": "Best Seller",
+ "description": "Cheesecake premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Bahan segar",
+ "Bumbu pilihan",
+ "Saus racikan rumah"
+ ],
+ "nutrition": {
+ "calories": 440,
+ "protein": 2,
+ "carbohydrate": 28,
+ "fat": 6
+ },
+ "sizes": [
+ "Single",
+ "Sharing"
+ ],
+ "toppings": [
+ "Original",
+ "Extra Cheese",
+ "Spicy Sauce",
+ "Mayo",
+ "BBQ Sauce"
+ ],
+ "sugarLevels": [],
+ "iceLevels": [],
+ "images": [
+ "https://images.unsplash.com/photo-1524351199678-941a58a3df50?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "food",
+ "premium",
+ "fresh"
+ ]
+ },
+ {
+ "id": "fo-010",
+ "slug": "brownies",
+ "name": "Brownies",
+ "category": "food",
+ "categoryName": "Food",
+ "price": 43500,
+ "oldPrice": 54375,
+ "discount": 20,
+ "rating": 4.6,
+ "reviews": 91,
+ "sold": 197,
+ "stock": 47,
+ "isBestSeller": false,
+ "isNew": true,
+ "isFlashSale": false,
+ "badge": "New",
+ "description": "Brownies premium dengan rasa seimbang, aroma lembut, dan kualitas bahan pilihan. Cocok untuk dinikmati harian maupun teman bekerja.",
+ "composition": [
+ "Bahan segar",
+ "Bumbu pilihan",
+ "Saus racikan rumah"
+ ],
+ "nutrition": {
+ "calories": 465,
+ "protein": 3,
+ "carbohydrate": 30,
+ "fat": 7
+ },
+ "sizes": [
+ "Single",
+ "Sharing"
+ ],
+ "toppings": [
+ "Original",
+ "Extra Cheese",
+ "Spicy Sauce",
+ "Mayo",
+ "BBQ Sauce"
+ ],
+ "sugarLevels": [],
+ "iceLevels": [],
+ "images": [
+ "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80",
+ "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=1000&q=80"
+ ],
+ "tags": [
+ "food",
+ "premium",
+ "fresh"
+ ]
+ }
+ ],
+ "categories": [
+ {
+ "id": "coffee",
+ "name": "Coffee",
+ "description": "Kopi premium dengan karakter aroma kuat dan rasa seimbang.",
+ "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80",
+ "icon": "fa-mug-hot"
+ },
+ {
+ "id": "non-coffee",
+ "name": "Non Coffee",
+ "description": "Minuman segar dan creamy untuk semua suasana.",
+ "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=80",
+ "icon": "fa-glass-water"
+ },
+ {
+ "id": "food",
+ "name": "Food",
+ "description": "Makanan ringan dan berat untuk melengkapi pesanan.",
+ "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+ "icon": "fa-burger"
+ }
+ ],
+ "reviews": [
+ {
+ "id": "rv-001",
+ "productId": "co-001",
+ "name": "Alya Putri",
+ "rating": 5,
+ "comment": "Rasanya konsisten dan kemasannya rapi. Pengiriman juga cepat.",
+ "date": "2026-02-14",
+ "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80"
+ },
+ {
+ "id": "rv-002",
+ "productId": "co-002",
+ "name": "Raka Pratama",
+ "rating": 5,
+ "comment": "Kopi tidak terlalu pahit. Cocok untuk kerja malam.",
+ "date": "2026-03-01",
+ "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80"
+ },
+ {
+ "id": "rv-003",
+ "productId": "no-001",
+ "name": "Sinta Lestari",
+ "rating": 4,
+ "comment": "Matcha terasa clean dan tidak terlalu manis.",
+ "date": "2026-03-12",
+ "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+ },
+ {
+ "id": "rv-004",
+ "productId": "fo-003",
+ "name": "Bima Arya",
+ "rating": 5,
+ "comment": "Burgernya padat dan sausnya enak. Worth it.",
+ "date": "2026-04-03",
+ "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80"
+ }
+ ],
+ "promos": [
+ {
+ "code": "COFFEE20",
+ "title": "Diskon Coffee 20%",
+ "description": "Berlaku untuk semua menu coffee minimal belanja Rp50.000.",
+ "type": "percent",
+ "value": 20,
+ "minPurchase": 50000,
+ "expiredAt": "2026-12-31"
+ },
+ {
+ "code": "FREESHIP",
+ "title": "Gratis Ongkir",
+ "description": "Potongan ongkir sampai Rp15.000.",
+ "type": "shipping",
+ "value": 15000,
+ "minPurchase": 75000,
+ "expiredAt": "2026-12-31"
+ },
+ {
+ "code": "WEEKEND10",
+ "title": "Weekend Treat",
+ "description": "Diskon Rp10.000 untuk pesanan akhir pekan.",
+ "type": "fixed",
+ "value": 10000,
+ "minPurchase": 60000,
+ "expiredAt": "2026-12-31"
+ }
+ ],
+ "banners": [
+ {
+ "id": "bn-001",
+ "title": "Premium Coffee, Delivered Fresh",
+ "subtitle": "Nikmati coffee, non coffee, dan food pilihan dengan pengalaman belanja cepat dan elegan.",
+ "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=80",
+ "buttonText": "Belanja Sekarang",
+ "url": "products.html"
+ },
+ {
+ "id": "bn-002",
+ "title": "Flash Sale Hari Ini",
+ "subtitle": "Diskon hingga 20% untuk menu favorit pelanggan.",
+ "image": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1600&q=80",
+ "buttonText": "Lihat Promo",
+ "url": "products.html?flash=true"
+ }
+ ],
+ "payment": [
+  {
+    "group": "QRIS",
+    "methods": [
+      {
+        "id": "qris",
+        "name": "QRIS",
+        "logo": "fa-qrcode"
+      }
+    ]
+  },
+  {
+    "group": "Transfer Bank",
+    "methods": [
+      {
+        "id": "bca",
+        "name": "BCA",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "mandiri",
+        "name": "Mandiri",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "bni",
+        "name": "BNI",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "bri",
+        "name": "BRI",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "cimb-niaga",
+        "name": "CIMB Niaga",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "permata",
+        "name": "Permata",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "btn",
+        "name": "BTN",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "bsi",
+        "name": "BSI",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "bank-mega",
+        "name": "Bank Mega",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "danamon",
+        "name": "Danamon",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "panin",
+        "name": "Panin",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "ocbc",
+        "name": "OCBC",
+        "logo": "fa-building-columns"
+      },
+      {
+        "id": "maybank",
+        "name": "Maybank",
+        "logo": "fa-building-columns"
+      }
+    ]
+  },
+  {
+    "group": "E-Wallet",
+    "methods": [
+      {
+        "id": "gopay",
+        "name": "GoPay",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "ovo",
+        "name": "OVO",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "dana",
+        "name": "DANA",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "shopeepay",
+        "name": "ShopeePay",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "linkaja",
+        "name": "LinkAja",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "astrapay",
+        "name": "AstraPay",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "isaku",
+        "name": "iSaku",
+        "logo": "fa-wallet"
+      },
+      {
+        "id": "sakuku",
+        "name": "Sakuku",
+        "logo": "fa-wallet"
+      }
+    ]
+  },
+  {
+    "group": "COD",
+    "methods": [
+      {
+        "id": "cod",
+        "name": "Bayar di Tempat",
+        "logo": "fa-truck-fast"
+      }
+    ]
+  },
+  {
+    "group": "Retail",
+    "methods": [
+      {
+        "id": "indomaret",
+        "name": "Indomaret",
+        "logo": "fa-store"
+      },
+      {
+        "id": "alfamart",
+        "name": "Alfamart",
+        "logo": "fa-store"
+      }
+    ]
+  }
+],
+ "shipping": [
+ {
+ "id": "instant",
+ "name": "Instant Delivery",
+ "description": "Estimasi 30-60 menit",
+ "price": 18000,
+ "eta": "30-60 menit"
+ },
+ {
+ "id": "regular",
+ "name": "Regular Delivery",
+ "description": "Estimasi 1-2 jam",
+ "price": 12000,
+ "eta": "1-2 jam"
+ },
+ {
+ "id": "pickup",
+ "name": "Ambil di Toko",
+ "description": "Tanpa ongkir",
+ "price": 0,
+ "eta": "15-30 menit"
+ }
+ ],
+ "users": [
+ {
+ "id": "usr-001",
+ "name": "Demo User",
+ "email": "demo@coffeestore.test",
+ "phone": "081234567890",
+ "password": "demo123",
+ "address": "Jl. Kopi Premium No. 7, Jakarta"
+ }
+ ],
+ "orders": [
+ {
+ "id": "ORD-2026-0001",
+ "date": "2026-06-20",
+ "status": "Selesai",
+ "total": 78500,
+ "items": [
+ {
+ "productId": "co-001",
+ "name": "Espresso",
+ "qty": 1
+ },
+ {
+ "productId": "fo-001",
+ "name": "Croissant",
+ "qty": 2
+ }
+ ],
+ "payment": "QRIS",
+ "shipping": "Instant Delivery"
+ },
+ {
+ "id": "ORD-2026-0002",
+ "date": "2026-06-25",
+ "status": "Selesai",
+ "total": 92000,
+ "items": [
+ {
+ "productId": "co-004",
+ "name": "Latte",
+ "qty": 2
+ },
+ {
+ "productId": "no-001",
+ "name": "Matcha Latte",
+ "qty": 1
+ }
+ ],
+ "payment": "BCA",
+ "shipping": "Regular Delivery"
+ }
+ ],
+ "cart": [],
+ "wishlist": []
+};

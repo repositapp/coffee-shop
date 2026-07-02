@@ -1,0 +1,29 @@
+[
+  {
+    "code": "COFFEE20",
+    "title": "Diskon Coffee 20%",
+    "description": "Berlaku untuk semua menu coffee minimal belanja Rp50.000.",
+    "type": "percent",
+    "value": 20,
+    "minPurchase": 50000,
+    "expiredAt": "2026-12-31"
+  },
+  {
+    "code": "FREESHIP",
+    "title": "Gratis Ongkir",
+    "description": "Potongan ongkir sampai Rp15.000.",
+    "type": "shipping",
+    "value": 15000,
+    "minPurchase": 75000,
+    "expiredAt": "2026-12-31"
+  },
+  {
+    "code": "WEEKEND10",
+    "title": "Weekend Treat",
+    "description": "Diskon Rp10.000 untuk pesanan akhir pekan.",
+    "type": "fixed",
+    "value": 10000,
+    "minPurchase": 60000,
+    "expiredAt": "2026-12-31"
+  }
+]

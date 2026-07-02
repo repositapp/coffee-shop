@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ORD-2026-0001",
+    "date": "2026-06-20",
+    "status": "Selesai",
+    "total": 78500,
+    "items": [
+      {
+        "productId": "co-001",
+        "name": "Espresso",
+        "qty": 1
+      },
+      {
+        "productId": "fo-001",
+        "name": "Croissant",
+        "qty": 2
+      }
+    ],
+    "payment": "QRIS",
+    "shipping": "Instant Delivery"
+  },
+  {
+    "id": "ORD-2026-0002",
+    "date": "2026-06-25",
+    "status": "Selesai",
+    "total": 92000,
+    "items": [
+      {
+        "productId": "co-004",
+        "name": "Latte",
+        "qty": 2
+      },
+      {
+        "productId": "no-001",
+        "name": "Matcha Latte",
+        "qty": 1
+      }
+    ],
+    "payment": "BCA",
+    "shipping": "Regular Delivery"
+  }
+]

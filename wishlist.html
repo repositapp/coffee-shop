@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Simpan, hapus, dan pindahkan produk favorit ke keranjang.">
+ <meta name="keywords" content="coffee shop, toko online, coffee, non coffee, food, e-commerce frontend">
+ <meta name="author" content="CoffeeStore">
+ <meta name="theme-color" content="#6F4E37">
+ <meta property="og:title" content="Wishlist | CoffeeStore">
+ <meta property="og:description" content="Simpan, hapus, dan pindahkan produk favorit ke keranjang.">
+ <meta property="og:type" content="website">
+ <meta property="og:image" content="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80">
+ <title>Wishlist | CoffeeStore</title>
+ <link rel="icon" href="assets/icons/favicon.png">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+ <script src="assets/js/config.js"></script>
+ <script>
+ window.tailwind = window.tailwind || {};
+ window.tailwind.config = {
+ theme: {
+ extend: {
+ colors: { coffee: { 50: '#F8F5F2', 100: '#EDE4DC', 200: '#D8C2B1', 300: '#BE9A82', 400: '#A47558', 500: '#8C6044', 600: '#7B543C', 700: '#6F4E37', 800: '#4E3727', 900: '#2F2118' } }
+ }
+ }
+ };
+ </script>
+ <script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="assets/css/style.css">
+ <link rel="stylesheet" href="assets/css/animation.css">
+ <link rel="stylesheet" href="assets/css/responsive.css">
+ <script src="assets/js/storage.js" defer></script>
+ <script src="assets/js/utils.js" defer></script>
+ <script src="assets/js/toast.js" defer></script>
+ <script src="assets/js/modal.js" defer></script>
+ <script src="assets/js/ui.js" defer></script>
+ <script src="assets/js/cart.js" defer></script>
+ <script src="assets/js/wishlist.js" defer></script>
+ <script src="assets/js/auth.js" defer></script>
+ <script src="assets/js/search.js" defer></script>
+ <script src="assets/js/filter.js" defer></script>
+ <script src="assets/js/slider.js" defer></script>
+ <script src="assets/js/products.js" defer></script>
+ <script src="assets/js/product-detail.js" defer></script>
+ <script src="assets/js/checkout.js" defer></script>
+ <script src="assets/js/payment.js" defer></script>
+ <script src="assets/js/profile.js" defer></script>
+ <script src="assets/js/orders.js" defer></script>
+ <script src="assets/js/app.js" defer></script>
+</head>
+<body data-page="wishlist" class="antialiased selection:bg-orange-200 selection:text-slate-900">
+ <div id="app-navbar"></div>
+ <main id="main-content" class="page-transition" tabindex="-1">
+ <div id="wishlist-page"></div>
+ </main>
+ <div id="app-footer"></div>
+ <div id="modal-root"></div>
+ <div id="toast-root"></div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "bn-001",
+    "title": "Premium Coffee, Delivered Fresh",
+    "subtitle": "Nikmati coffee, non coffee, dan food pilihan dengan pengalaman belanja cepat dan elegan.",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=80",
+    "buttonText": "Belanja Sekarang",
+    "url": "products.html"
+  },
+  {
+    "id": "bn-002",
+    "title": "Flash Sale Hari Ini",
+    "subtitle": "Diskon hingga 20% untuk menu favorit pelanggan.",
+    "image": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1600&q=80",
+    "buttonText": "Lihat Promo",
+    "url": "products.html?flash=true"
+  }
+]

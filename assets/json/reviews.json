@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rv-001",
+    "productId": "co-001",
+    "name": "Alya Putri",
+    "rating": 5,
+    "comment": "Rasanya konsisten dan kemasannya rapi. Pengiriman juga cepat.",
+    "date": "2026-02-14",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "rv-002",
+    "productId": "co-002",
+    "name": "Raka Pratama",
+    "rating": 5,
+    "comment": "Kopi tidak terlalu pahit. Cocok untuk kerja malam.",
+    "date": "2026-03-01",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "rv-003",
+    "productId": "no-001",
+    "name": "Sinta Lestari",
+    "rating": 4,
+    "comment": "Matcha terasa clean dan tidak terlalu manis.",
+    "date": "2026-03-12",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "rv-004",
+    "productId": "fo-003",
+    "name": "Bima Arya",
+    "rating": 5,
+    "comment": "Burgernya padat dan sausnya enak. Worth it.",
+    "date": "2026-04-03",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80"
+  }
+]

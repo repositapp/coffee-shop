@@ -1,0 +1,74 @@
+@keyframes fadeIn {
+ from { opacity: 0; }
+ to { opacity: 1; }
+}
+
+@keyframes fadeUp {
+ from { opacity: 0; transform: translateY(20px); }
+ to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+ from { opacity: 0; transform: translateX(28px); }
+ to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes modalIn {
+ from { opacity: 0; transform: translateY(18px) scale(.96); }
+ to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes toastIn {
+ from { opacity: 0; transform: translateY(12px) scale(.98); }
+ to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes skeleton {
+ 0% { background-position: 200% 0; }
+ 100% { background-position: -200% 0; }
+}
+
+@keyframes floatSoft {
+ 0%, 100% { transform: translateY(0); }
+ 50% { transform: translateY(-10px); }
+}
+
+@keyframes spin {
+ to { transform: rotate(360deg); }
+}
+
+.animate-fade-up {
+ animation: fadeUp .55s ease both;
+}
+
+.animate-slide-right {
+ animation: slideInRight .45s ease both;
+}
+
+.animate-float-soft {
+ animation: floatSoft 4.6s ease-in-out infinite;
+}
+
+.page-transition {
+ animation: fadeUp .38s ease both;
+}
+
+.spinner {
+ width: 2.5rem;
+ height: 2.5rem;
+ border: 3px solid rgba(217, 119, 6, .18);
+ border-top-color: #d97706;
+ border-radius: 999px;
+ animation: spin .75s linear infinite;
+}
+
+[data-animate] {
+ opacity: 0;
+ transform: translateY(18px);
+ transition: opacity .5s ease, transform .5s ease;
+}
+
+[data-animate].is-visible {
+ opacity: 1;
+ transform: translateY(0);
+}
