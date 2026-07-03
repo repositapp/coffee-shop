@@ -1404,11 +1404,10 @@ window.STORE_DATA = {
   banners: [
     {
       id: "bn-001",
-      title: "Selamat Datang <br/> di Rimba Coffee",
+      title: "Selamat Datang <br/> di Renov Coffee",
       subtitle:
         "Nikmati coffee, non coffee, dan food pilihan dengan pengalaman belanja cepat dan elegan.",
-      image:
-        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=80",
+      image: "assets/images/banners/hero.png",
       buttonText: "Belanja Sekarang",
       url: "products.html",
     },

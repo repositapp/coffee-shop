@@ -69,8 +69,16 @@ window.UI = (() => {
         <a href="#main-content" class="skip-link">Lewati ke konten</a>
         <nav class="container-page min-h-[76px] py-3 flex items-center justify-between gap-4" aria-label="Navigasi utama">
           <a href="index.html" class="flex items-center gap-3 shrink-0" aria-label="Coffee Shop Store Home">
-            <span class="w-11 h-11 rounded-2xl bg-gradient-to-br from-coffee-700 to-orange-600 text-white flex items-center justify-center shadow-lg shadow-orange-900/20"><i class="fa-solid fa-mug-hot"></i></span>
-            <span class="font-display font-extrabold text-lg tracking-tight text-[#3B281D] leading-tight">Rimba<span class="text-orange-600">Coffee</span></span>
+              <img src="assets/images/logo/Logo-navbar.png" alt="RenovCoffee Logo" class="w-20 h-11 object-contain">
+              <div class="leading-[1.05] pr-2">
+        <span class="block font-display font-bold text-lg text-[#3B281D]">
+            Renov
+        </span>
+
+        <span class="block font-display font-bold text-lg text-orange-600 mt-[-9px]">
+            Coffee
+        </span>
+    </div>
           </a>
           <div class="hidden lg:flex items-center gap-7">
             ${navItems.map((item) => navLink(item)).join("")}
@@ -110,17 +118,17 @@ window.UI = (() => {
         <div class="absolute inset-0 opacity-50 bg-[radial-gradient(circle_at_20%_20%,#FCD9A8,transparent_25%),radial-gradient(circle_at_80%_0%,#D8C2B1,transparent_30%)]"></div>
         <div class="container-page relative py-12 md:py-16 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <div class="flex items-center gap-3 text-[#3B281D]"><span class="w-11 h-11 rounded-2xl bg-gradient-to-br from-coffee-700 to-orange-600 text-white flex items-center justify-center"><i class="fa-solid fa-mug-hot"></i></span><strong class="font-display text-xl">RimbaCoffee</strong></div>
+            <div class="flex items-center gap-3 text-[#3B281D]"><img src="assets/images/logo/Logo-navbar.png" alt="RenovCoffee Logo" class="w-20 h-11 object-contain"><strong class="font-display text-xl">RenovCoffee</strong></div>
             <p class="mt-4 text-sm leading-7 text-[#7B543C]">Toko online coffee, non coffee, dan food pilihan dengan pengalaman belanja cepat dan elegan.</p>
             <div class="mt-5 flex gap-3"><a class="w-10 h-10 rounded-full bg-white/70 text-coffee-700 flex items-center justify-center hover:bg-orange-600 hover:text-white transition" href="#"><i class="fa-brands fa-instagram"></i></a><a class="w-10 h-10 rounded-full bg-white/70 text-coffee-700 flex items-center justify-center hover:bg-orange-600 hover:text-white transition" href="#"><i class="fa-brands fa-tiktok"></i></a><a class="w-10 h-10 rounded-full bg-white/70 text-coffee-700 flex items-center justify-center hover:bg-orange-600 hover:text-white transition" href="#"><i class="fa-brands fa-x-twitter"></i></a></div>
           </div>
           <div><h3 class="font-display font-extrabold text-[#3B281D] mb-4">Jam Operasional</h3><ul class="space-y-3 text-sm text-[#6F4E37]"><li>Senin - Jumat: 08.00 - 22.00</li><li>Sabtu - Minggu: 09.00 - 23.00</li><li>Pickup Order: 08.30 - 21.30</li></ul></div>
           <div><h3 class="font-display font-extrabold text-[#3B281D] mb-4">Bantuan</h3><ul class="space-y-3 text-sm text-[#6F4E37]"><li><a href="about.html" class="hover:text-orange-600">Tentang Kami</a></li><li><a href="contact.html" class="hover:text-orange-600">Kontak</a></li><li><a href="#" class="hover:text-orange-600">FAQ</a></li><li><a href="#" class="hover:text-orange-600">Privacy Policy</a></li><li><a href="#" class="hover:text-orange-600">Terms</a></li></ul></div>
           <div><h3 class="font-display font-extrabold text-[#3B281D] mb-4">Newsletter</h3><p class="text-sm text-[#7B543C] mb-4">Dapatkan info promo dan menu baru.</p><div class="flex gap-2"><input class="w-full rounded-full bg-white/80 border border-[#E3D0BF] px-4 py-3 outline-none" placeholder="Email kamu"><button onclick="Toast.success('Newsletter berhasil disimpan')" class="rounded-full bg-orange-600 px-4 font-bold text-white">Kirim</button></div><div class="mt-4 overflow-hidden rounded-3xl border border-[#E3D0BF] shadow-sm h-30">
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d786.0798195315384!2d122.61665667656635!3d-5.470839441350459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da477003542bebf%3A0x62c50bb10190b311!2sRimba%20Coffee!5e1!3m2!1sid!2sid!4v1783018495017!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294.45140007159586!2d122.60182054422968!3d-5.4623956445991455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da477066fa0e413%3A0x996432c12769fc!2sRenovfood%20Social%20Space!5e1!3m2!1sid!2sid!4v1783067031533!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div></div>
         </div>
-        <div class="relative border-t border-[#E3D0BF] py-5 text-center text-sm text-[#7B543C]">© 2026 RimbaCoffee. All rights reserved.</div>
+        <div class="relative border-t border-[#E3D0BF] py-5 text-center text-sm text-[#7B543C]">© 2026 RenovCoffee. All rights reserved.</div>
       </footer>`;
   };
 
@@ -182,3 +190,5 @@ window.UI = (() => {
     skeletonCards,
   };
 })();
+
+// <span class="font-display font-extrabold text-md tracking-tight text-[#3B281D] leading-tight"> Renov <br/><span class="text-orange-600">Coffee</span> </span>
